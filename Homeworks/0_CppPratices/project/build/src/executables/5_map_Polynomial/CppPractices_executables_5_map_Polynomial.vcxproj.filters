@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\src\executables\5_map_Polynomial\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\src\executables\5_map_Polynomial\TestPolynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\src\executables\5_map_Polynomial\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F63FB22D-2A14-33C5-8559-73C107DD0590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E29966C0-1524-356C-95A7-71B3112A1BBA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

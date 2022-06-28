@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/ucmake-populate"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/a0ff6bc92f08fdb0315bfbd2dfeb5dc8/ucmake-populate.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/2bfcac34380f557d4e89cd6fdb4eb1f4/ucmake-populate-complete.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/ba606455d593d3f79a340e64f5372e91/ucmake-populate-build.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/ba606455d593d3f79a340e64f5372e91/ucmake-populate-configure.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/ba606455d593d3f79a340e64f5372e91/ucmake-populate-download.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/ba606455d593d3f79a340e64f5372e91/ucmake-populate-install.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/ba606455d593d3f79a340e64f5372e91/ucmake-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/ba606455d593d3f79a340e64f5372e91/ucmake-populate-patch.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/ba606455d593d3f79a340e64f5372e91/ucmake-populate-test.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/ba606455d593d3f79a340e64f5372e91/ucmake-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ucmake-populate"
+		],
+		"name" : "ucmake-populate"
+	}
+}

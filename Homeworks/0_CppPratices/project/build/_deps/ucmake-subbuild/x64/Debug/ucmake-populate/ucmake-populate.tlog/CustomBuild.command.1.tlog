@@ -1,0 +1,150 @@
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\BA606455D593D3F79A340E64F5372E91\UCMAKE-POPULATE-MKDIR.RULE
+setlocal
+D:\CMake\bin\cmake.exe -P D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\BA606455D593D3F79A340E64F5372E91\UCMAKE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -P D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\BA606455D593D3F79A340E64F5372E91\UCMAKE-POPULATE-UPDATE.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -P D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\BA606455D593D3F79A340E64F5372E91\UCMAKE-POPULATE-PATCH.RULE
+setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\BA606455D593D3F79A340E64F5372E91\UCMAKE-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\BA606455D593D3F79A340E64F5372E91\UCMAKE-POPULATE-BUILD.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\BA606455D593D3F79A340E64F5372E91\UCMAKE-POPULATE-INSTALL.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\BA606455D593D3F79A340E64F5372E91\UCMAKE-POPULATE-TEST.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\2BFCAC34380F557D4E89CD6FDB4EB1F4\UCMAKE-POPULATE-COMPLETE.RULE
+setlocal
+D:\CMake\bin\cmake.exe -E make_directory D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/Debug/ucmake-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\A0FF6BC92F08FDB0315BFBD2DFEB5DC8\UCMAKE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild -BD:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild --check-stamp-file D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

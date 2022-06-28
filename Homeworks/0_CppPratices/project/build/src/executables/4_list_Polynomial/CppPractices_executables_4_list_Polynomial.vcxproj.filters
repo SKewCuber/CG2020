@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\src\executables\4_list_Polynomial\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\src\executables\4_list_Polynomial\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E29966C0-1524-356C-95A7-71B3112A1BBA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\A0FF6BC92F08FDB0315BFBD2DFEB5DC8\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild -BD:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/_deps/ucmake-subbuild/ucmake-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

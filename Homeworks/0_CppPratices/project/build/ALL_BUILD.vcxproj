@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E6672DA5-C3F9-3A76-81E7-62C93182E955}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/STUDY/CG2020/Homeworks/0_CppPratices/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/0_CppPratices/project -BD:/STUDY/CG2020/Homeworks/0_CppPratices/project/build --check-stamp-file D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;D:\CMake\share\cmake-3.23\Modules\FindGit.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeSystem.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\cmake\InitUCMake.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/STUDY/CG2020/Homeworks/0_CppPratices/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/0_CppPratices/project -BD:/STUDY/CG2020/Homeworks/0_CppPratices/project/build --check-stamp-file D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;D:\CMake\share\cmake-3.23\Modules\FindGit.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeSystem.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\cmake\InitUCMake.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/STUDY/CG2020/Homeworks/0_CppPratices/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/0_CppPratices/project -BD:/STUDY/CG2020/Homeworks/0_CppPratices/project/build --check-stamp-file D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;D:\CMake\share\cmake-3.23\Modules\FindGit.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeSystem.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\cmake\InitUCMake.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/STUDY/CG2020/Homeworks/0_CppPratices/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/0_CppPratices/project -BD:/STUDY/CG2020/Homeworks/0_CppPratices/project/build --check-stamp-file D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;D:\CMake\share\cmake-3.23\Modules\FindGit.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\3.23.2\CMakeSystem.cmake;D:\STUDY\CG2020\Homeworks\0_CppPratices\project\cmake\InitUCMake.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\ZERO_CHECK.vcxproj">
+      <Project>{1CED1CBF-45F7-300B-BA32-481259D876CD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\src\executables\1_BasicDArray\CppPractices_executables_1_BasicDArray.vcxproj">
+      <Project>{A7A79ECD-CEF7-39AF-BB4C-48948B7AA29F}</Project>
+      <Name>CppPractices_executables_1_BasicDArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\src\executables\2_EfficientDArray\CppPractices_executables_2_EfficientDArray.vcxproj">
+      <Project>{4B67EA22-F4A8-371B-B733-7D68278B222C}</Project>
+      <Name>CppPractices_executables_2_EfficientDArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\src\executables\4_list_Polynomial\CppPractices_executables_4_list_Polynomial.vcxproj">
+      <Project>{BA83643A-FF80-3016-A2B8-A8E98926C926}</Project>
+      <Name>CppPractices_executables_4_list_Polynomial</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\src\executables\5_map_Polynomial\CppPractices_executables_5_map_Polynomial.vcxproj">
+      <Project>{2401A2C6-80E7-385A-82E6-62A3CFC70A2C}</Project>
+      <Name>CppPractices_executables_5_map_Polynomial</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\src\libraries\shared\CppPractices_libraries_shared.vcxproj">
+      <Project>{A057AD6A-0B77-3216-AD0E-B2D0CD074BCD}</Project>
+      <Name>CppPractices_libraries_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\src\libraries\static\CppPractices_libraries_static.vcxproj">
+      <Project>{52DB85BA-B57B-3189-B5BF-AFE497B6F3BD}</Project>
+      <Name>CppPractices_libraries_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-build\src\test\00_Basic\UCMake_test_00_Basic.vcxproj">
+      <Project>{4B9CA511-97AD-3088-B6FF-4107836C474B}</Project>
+      <Name>UCMake_test_00_Basic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

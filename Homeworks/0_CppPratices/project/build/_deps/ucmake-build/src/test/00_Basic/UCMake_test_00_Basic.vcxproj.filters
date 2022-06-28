@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-src\src\test\00_Basic\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-src\src\test\00_Basic\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-src\cmake\UbpaBasic.cmake" />
+    <None Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-src\cmake\UbpaBuild.cmake" />
+    <None Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-src\cmake\UbpaDownload.cmake" />
+    <None Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-src\cmake\UbpaGit.cmake" />
+    <None Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-src\cmake\UbpaInit.cmake" />
+    <None Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-src\cmake\UbpaPackage.cmake" />
+    <None Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-src\cmake\UbpaQt.cmake" />
+    <None Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\_deps\ucmake-src\cmake\UbpaTool.cmake" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E29966C0-1524-356C-95A7-71B3112A1BBA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

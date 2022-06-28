@@ -1,0 +1,10 @@
+^D:\STUDY\CG2020\HOMEWORKS\0_CPPPRATICES\PROJECT\SRC\EXECUTABLES\1_BASICDARRAY\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/0_CppPratices/project -BD:/STUDY/CG2020/Homeworks/0_CppPratices/project/build --check-stamp-file D:/STUDY/CG2020/Homeworks/0_CppPratices/project/build/src/executables/1_BasicDArray/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

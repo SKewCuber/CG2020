@@ -1,5 +1,6 @@
 // implementation of class DArray
 #include "DArray.h"
+#include "cstdio"
 
 // default constructor
 DArray::DArray() {
@@ -22,7 +23,7 @@ DArray::~DArray() {
 
 // display the elements of the array
 void DArray::Print() const {
-	//TODO
+	printf("1\n");
 }
 
 // initilize the array
