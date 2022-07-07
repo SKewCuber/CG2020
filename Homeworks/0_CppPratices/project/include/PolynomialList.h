@@ -34,7 +34,7 @@ public:
     PolynomialList operator*(const PolynomialList& right) const; //Overload operator *
     PolynomialList& operator=(const PolynomialList& right); //Overload operator =
 
-    void Print() const;
+    void Print();
 
 private:
     struct Term {
@@ -48,5 +48,5 @@ private:
     Term& AddOneTerm(const Term& term); // add one term into m_Polynomial
 
 private:
-    std::list<Term> m_Polynomial; // high degree -> low degree
+    std::list<Term> m_Polynomial; // low degree -> high degree
 };

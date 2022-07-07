@@ -1,0 +1,24 @@
+﻿  Building Custom Rule D:/STUDY/CG2020/Homeworks/0_CppPratices/project/src/executables/3_TemplateDArray/CMakeLists.txt
+  DArray.cpp
+  main.cpp
+  正在生成代码...
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl DArray<double>::DArray<double>(void)" (??0?$DArray@N@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl DArray<double>::DArray<double>(class DArray<double> const &)" (??0?$DArray@N@@QEAA@AEBV0@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl DArray<double>::~DArray<double>(void)" (??1?$DArray@N@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl DArray<double>::Print(void)const " (?Print@?$DArray@N@@QEBAXXZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl DArray<double>::PushBack(double)" (?PushBack@?$DArray@N@@QEAAXN@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl DArray<double>::DeleteAt(int)" (?DeleteAt@?$DArray@N@@QEAAXH@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl DArray<double>::InsertAt(int,double)" (?InsertAt@?$DArray@N@@QEAAXHN@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class DArray<double> & __cdecl DArray<double>::operator=(class DArray<double> const &)" (??4?$DArray@N@@QEAAAEAV0@AEBV0@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl DArray<int>::DArray<int>(void)" (??0?$DArray@H@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl DArray<int>::~DArray<int>(void)" (??1?$DArray@H@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl DArray<int>::Print(void)const " (?Print@?$DArray@H@@QEBAXXZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl DArray<int>::SetSize(int)" (?SetSize@?$DArray@H@@QEAAXH@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl DArray<int>::PushBack(int)" (?PushBack@?$DArray@H@@QEAAXH@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl DArray<int>::DeleteAt(int)" (?DeleteAt@?$DArray@H@@QEAAXH@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl DArray<char>::DArray<char>(void)" (??0?$DArray@D@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl DArray<char>::~DArray<char>(void)" (??1?$DArray@D@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl DArray<char>::Print(void)const " (?Print@?$DArray@D@@QEBAXXZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl DArray<char>::PushBack(char)" (?PushBack@?$DArray@D@@QEAAXD@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl DArray<char>::InsertAt(int,char)" (?InsertAt@?$DArray@D@@QEAAXHD@Z)，函数 main 中引用了该符号
+D:\STUDY\CG2020\Homeworks\0_CppPratices\project\bin\CppPractices_executables_3_TemplateDArray.exe : fatal error LNK1120: 19 个无法解析的外部命令

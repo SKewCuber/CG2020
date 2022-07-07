@@ -1,5 +1,5 @@
 #include "PolynomialList.h"
-
+#include "PolynomialList.cpp" 
 #include <list>
 #include <iostream>
 

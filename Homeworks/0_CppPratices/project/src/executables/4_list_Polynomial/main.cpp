@@ -20,5 +20,11 @@ int main(int argc, char** argv) {
 	p3 = p1 * p2;
 	p3.Print();
 
+
+	double cof[3] = {1,2,3};
+	int deg[3] = { 0,1,2 };
+	PolynomialList p4(cof, deg, 3);
+	p4.Print();
+
 	return 0;
 }

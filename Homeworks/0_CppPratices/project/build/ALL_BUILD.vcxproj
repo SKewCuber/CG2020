@@ -181,6 +181,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{4B67EA22-F4A8-371B-B733-7D68278B222C}</Project>
       <Name>CppPractices_executables_2_EfficientDArray</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\src\executables\3_TemplateDArray\CppPractices_executables_3_TemplateDArray.vcxproj">
+      <Project>{5F008782-19B3-322B-A73B-2DFAC02EE02C}</Project>
+      <Name>CppPractices_executables_3_TemplateDArray</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\STUDY\CG2020\Homeworks\0_CppPratices\project\build\src\executables\4_list_Polynomial\CppPractices_executables_4_list_Polynomial.vcxproj">
       <Project>{BA83643A-FF80-3016-A2B8-A8E98926C926}</Project>
       <Name>CppPractices_executables_4_list_Polynomial</Name>

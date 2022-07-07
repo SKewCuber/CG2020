@@ -1,10 +1,9 @@
 #include "DArray.h"
-
+#include "cstdio"
 int main(int argc, char** argv) {
 	DArray a;
-	a.InsertAt(0, 2.1);
+	a.InsertAt(0, 2.1);   //assert只在debug中生效
 	a.Print();
-
 	a.PushBack(3.0);
 	a.PushBack(3.1);
 	a.PushBack(3.2);

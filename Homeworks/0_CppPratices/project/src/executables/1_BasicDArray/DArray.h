@@ -1,4 +1,4 @@
-#pragma once
+#pragma once //Ensure that the header file is compiled only once
 
 // interfaces of Dynamic Array class DArray
 class DArray {
