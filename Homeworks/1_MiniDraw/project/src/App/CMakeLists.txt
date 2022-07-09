@@ -3,5 +3,5 @@ Ubpa_AddTarget(
   QT
   MODE EXE
   LIB
-    Qt5::Widgets
+    Qt6::Widgets
 )
