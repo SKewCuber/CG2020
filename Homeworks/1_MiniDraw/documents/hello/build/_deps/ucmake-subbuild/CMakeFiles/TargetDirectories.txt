@@ -1,0 +1,3 @@
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/ucmake-populate.dir
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/ZERO_CHECK.dir

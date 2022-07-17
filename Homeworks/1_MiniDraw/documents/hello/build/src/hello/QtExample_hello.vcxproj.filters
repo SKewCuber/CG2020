@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\main.cpp">
+      <Filter>hello</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\mainwindow.cpp">
+      <Filter>hello</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\mainwindow.h">
+      <Filter>hello</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\CMakeFiles\3beb38e0ebd37eb9012c91e7d45713d5\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\mainwindow.ui">
+      <Filter>hello</Filter>
+    </None>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_Debug.stamp" />
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_Release.stamp" />
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{926CC816-8A39-3A71-8001-1DFF296CD834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{838F6AD6-AFD1-394D-815E-2D21B16A22FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AE027A02-252C-3A4B-BD38-3AA0931419D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hello">
+      <UniqueIdentifier>{01F3A933-6C05-37CA-9412-837B76CBC978}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

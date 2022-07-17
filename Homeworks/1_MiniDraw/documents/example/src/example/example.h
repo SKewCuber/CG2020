@@ -3,7 +3,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include<QtWidgets/Qmenu>
-#include<QMessageBox>
+#include<QtWidgets/QMessageBox>
 #include "ui_example.h"
 
 class example : public QMainWindow

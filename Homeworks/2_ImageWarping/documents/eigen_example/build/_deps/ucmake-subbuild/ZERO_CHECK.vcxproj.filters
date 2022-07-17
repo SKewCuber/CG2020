@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-subbuild\CMakeFiles\636745ade87767cdde44e8a9243599ca\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F208D4FE-ABD5-34F0-9BBA-13403A4FB21B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,5 +1,6 @@
 #pragma once
 #include <QWidget>
+#include <QPoint>
 
 QT_BEGIN_NAMESPACE
 class QImage;
@@ -29,9 +30,16 @@ public slots:
 	void Mirror(bool horizontal=false, bool vertical=true);		// Mirror image vertically or horizontally
 	void TurnGray();											// Turn image to gray-scale map
 	void Restore();												// Restore image to origin
+	void Warp();                                                // Image warping
 
 private:
 	QImage		*ptr_image_;				// image 
+	QImage		*ptr_image_1;				 
+	QImage		*ptr_image_2;				
 	QImage		*ptr_image_backup_;
+
+	bool warp_ = false;
+	std::vector<QPoint*> start_points_;
+	std::vector<QPoint*> end_points_;
 };
 

@@ -1,0 +1,22 @@
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\CMAKEFILES\3BEB38E0EBD37EB9012C91E7D45713D5\AUTOUIC_(CONFIG).STAMP.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\SRC\HELLO\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello -BD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build --check-stamp-file D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

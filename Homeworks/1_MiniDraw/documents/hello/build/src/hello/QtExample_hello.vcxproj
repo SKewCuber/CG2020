@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1A964E5D-FC94-31A2-BBFD-B1560B4E4A3D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>QtExample_hello</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QtExample_hello.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QtExample_hellod</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QtExample_hello.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QtExample_hello</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QtExample_hello.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QtExample_hello</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QtExample_hello.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QtExample_hello</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/bin</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_Debug;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_Debug;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_Debug;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target QtExample_hello</Message>
+      <Command>setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E cmake_autogen D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/CMakeFiles/QtExample_hello_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/QtExample_hello_autogen/autouic_Debug.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\6.3.1\msvc2019_64\lib\Qt6Widgetsd.lib;D:\Qt\6.3.1\msvc2019_64\lib\Qt6Guid.lib;D:\Qt\6.3.1\msvc2019_64\lib\Qt6Cored.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/lib/QtExample_hellod.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/bin/QtExample_hellod.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_Release;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_Release;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_Release;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target QtExample_hello</Message>
+      <Command>setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E cmake_autogen D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/CMakeFiles/QtExample_hello_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/QtExample_hello_autogen/autouic_Release.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\6.3.1\msvc2019_64\lib\Qt6Widgets.lib;D:\Qt\6.3.1\msvc2019_64\lib\Qt6Gui.lib;D:\Qt\6.3.1\msvc2019_64\lib\Qt6Core.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/lib/QtExample_hello.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/bin/QtExample_hello.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_MinSizeRel;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_MinSizeRel;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_MinSizeRel;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target QtExample_hello</Message>
+      <Command>setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E cmake_autogen D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/CMakeFiles/QtExample_hello_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/QtExample_hello_autogen/autouic_MinSizeRel.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\6.3.1\msvc2019_64\lib\Qt6Widgets.lib;D:\Qt\6.3.1\msvc2019_64\lib\Qt6Gui.lib;D:\Qt\6.3.1\msvc2019_64\lib\Qt6Core.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/lib/MinSizeRel/QtExample_hello.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/bin/MinSizeRel/QtExample_hello.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_RelWithDebInfo;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_RelWithDebInfo;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello;D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_RelWithDebInfo;D:\Qt\6.3.1\msvc2019_64\include\QtWidgets;D:\Qt\6.3.1\msvc2019_64\include;D:\Qt\6.3.1\msvc2019_64\include\QtCore;D:\Qt\6.3.1\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.3.1\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target QtExample_hello</Message>
+      <Command>setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E cmake_autogen D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/CMakeFiles/QtExample_hello_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/QtExample_hello_autogen/autouic_RelWithDebInfo.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\6.3.1\msvc2019_64\lib\Qt6Widgets.lib;D:\Qt\6.3.1\msvc2019_64\lib\Qt6Gui.lib;D:\Qt\6.3.1\msvc2019_64\lib\Qt6Core.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/lib/RelWithDebInfo/QtExample_hello.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/bin/RelWithDebInfo/QtExample_hello.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\CMakeFiles\3beb38e0ebd37eb9012c91e7d45713d5\autouic_(CONFIG).stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\mainwindow.ui;D:\Qt\6.3.1\msvc2019_64\.\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_Debug.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\mainwindow.ui;D:\Qt\6.3.1\msvc2019_64\.\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_Release.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\mainwindow.ui;D:\Qt\6.3.1\msvc2019_64\.\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_MinSizeRel.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\mainwindow.ui;D:\Qt\6.3.1\msvc2019_64\.\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_RelWithDebInfo.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/hello/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello -BD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build --check-stamp-file D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/hello/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello -BD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build --check-stamp-file D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/hello/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello -BD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build --check-stamp-file D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/hello/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello -BD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build --check-stamp-file D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/src/hello/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\main.cpp" />
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\mainwindow.cpp" />
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\mainwindow.h" />
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\src\hello\mainwindow.ui">
+    </None>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_Debug\ui_mainwindow.h" />
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_Debug.stamp">
+    </None>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_Release\ui_mainwindow.h" />
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_Release.stamp">
+    </None>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_MinSizeRel\ui_mainwindow.h" />
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_MinSizeRel.stamp">
+    </None>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\include_RelWithDebInfo\ui_mainwindow.h" />
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\src\hello\QtExample_hello_autogen\autouic_RelWithDebInfo.stamp">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\ZERO_CHECK.vcxproj">
+      <Project>{FC6027D0-5934-3E89-A32B-A47A309B8572}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

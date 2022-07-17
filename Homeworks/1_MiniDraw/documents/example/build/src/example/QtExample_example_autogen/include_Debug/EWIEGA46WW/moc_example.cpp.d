@@ -1,0 +1,1 @@
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/example/build/src/example/QtExample_example_autogen/include_Debug/EWIEGA46WW/moc_example.cpp: D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/example/src/example/example.h

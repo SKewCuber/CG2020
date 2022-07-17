@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\CMakeFiles\6c9b7a3545ce0dbdacb4f3016303b2f3\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{926CC816-8A39-3A71-8001-1DFF296CD834}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

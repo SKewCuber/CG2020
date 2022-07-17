@@ -1,0 +1,95 @@
+The system is: Windows - 10.0.19043 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30145.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/build-hello-Desktop_x86_windows_msvc2019_pe_64bit-Debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/build-hello-Desktop_x86_windows_msvc2019_pe_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Tools/Ninja/ninja.exe cmTC_c5440 && [1/2] Building CXX object CMakeFiles\cmTC_c5440.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_c5440.exe
+
+
+
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/build-hello-Desktop_x86_windows_msvc2019_pe_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Tools/Ninja/ninja.exe cmTC_61711 && [1/2] Building CXX object CMakeFiles\cmTC_61711.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_61711.exe
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+int main(int, char **)
+{
+    volatile std::atomic<char>    size_1;
+    volatile std::atomic<short>   size_2;
+    volatile std::atomic<int>     size_4;
+    volatile std::atomic<int64_t> size_8;
+
+    ++size_1;
+    ++size_2;
+    ++size_4;
+    ++size_8;
+
+    (void)size_1.load(std::memory_order_relaxed);
+    (void)size_2.load(std::memory_order_relaxed);
+    (void)size_4.load(std::memory_order_relaxed);
+    (void)size_8.load(std::memory_order_relaxed);
+
+    return 0;
+}
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30145.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/build-hello-Desktop_x86_windows_msvc2019_pe_64bit-Debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/build-hello-Desktop_x86_windows_msvc2019_pe_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Tools/Ninja/ninja.exe cmTC_42ffb && [1/2] Building C object CMakeFiles\cmTC_42ffb.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_42ffb.exe
+
+
+

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/ucmake-populate"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/d703855f96f1b7099d08fa2519cdd44f/ucmake-populate.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/000a2d0ab8014123b5df5508b681209e/ucmake-populate-complete.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/6a80918664f4bd1f3ca63cdf4bdd23d5/ucmake-populate-build.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/6a80918664f4bd1f3ca63cdf4bdd23d5/ucmake-populate-configure.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/6a80918664f4bd1f3ca63cdf4bdd23d5/ucmake-populate-download.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/6a80918664f4bd1f3ca63cdf4bdd23d5/ucmake-populate-install.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/6a80918664f4bd1f3ca63cdf4bdd23d5/ucmake-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/6a80918664f4bd1f3ca63cdf4bdd23d5/ucmake-populate-patch.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/6a80918664f4bd1f3ca63cdf4bdd23d5/ucmake-populate-test.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/6a80918664f4bd1f3ca63cdf4bdd23d5/ucmake-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ucmake-populate"
+		],
+		"name" : "ucmake-populate"
+	}
+}

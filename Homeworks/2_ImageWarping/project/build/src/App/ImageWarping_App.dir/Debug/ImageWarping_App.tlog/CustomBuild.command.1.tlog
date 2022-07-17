@@ -1,0 +1,42 @@
+^D:\STUDY\CG2020\HOMEWORKS\2_IMAGEWARPING\PROJECT\BUILD\CMAKEFILES\99A5F6AB26B9668D2F243F9537CFBCDA\AUTOUIC_(CONFIG).STAMP.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\2_IMAGEWARPING\PROJECT\BUILD\CMAKEFILES\E49E65D5D56FCB178CF6404F103C9734\QRC_MAINWINDOW.CPP.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E cmake_autorcc D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/src/App/CMakeFiles/ImageWarping_App_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E cmake_autorcc D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/src/App/CMakeFiles/ImageWarping_App_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E cmake_autorcc D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/src/App/CMakeFiles/ImageWarping_App_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E cmake_autorcc D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/src/App/CMakeFiles/ImageWarping_App_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\2_IMAGEWARPING\PROJECT\SRC\APP\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/2_ImageWarping/project -BD:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build --check-stamp-file D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/src/App/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

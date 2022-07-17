@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/ucmake-populate"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/f659422918eab2347a272c8f9754615b/ucmake-populate.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/63432b48307c2524a1ab54eb30b10b42/ucmake-populate-complete.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/92a0222110a89de6bb64e0845ff4eb35/ucmake-populate-build.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/92a0222110a89de6bb64e0845ff4eb35/ucmake-populate-configure.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/92a0222110a89de6bb64e0845ff4eb35/ucmake-populate-download.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/92a0222110a89de6bb64e0845ff4eb35/ucmake-populate-install.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/92a0222110a89de6bb64e0845ff4eb35/ucmake-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/92a0222110a89de6bb64e0845ff4eb35/ucmake-populate-patch.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/92a0222110a89de6bb64e0845ff4eb35/ucmake-populate-test.rule"
+		},
+		{
+			"file" : "D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/92a0222110a89de6bb64e0845ff4eb35/ucmake-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ucmake-populate"
+		],
+		"name" : "ucmake-populate"
+	}
+}

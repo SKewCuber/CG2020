@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+D:/CMake/share/cmake-3.23/Modules/BasicConfigVersion-SameMinorVersion.cmake.in
+D:/CMake/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake
+D:/CMake/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-src/CMakeLists.txt
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-src/cmake/UbpaBasic.cmake
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-src/cmake/UbpaBuild.cmake
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-src/cmake/UbpaDownload.cmake
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-src/cmake/UbpaGit.cmake
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-src/cmake/UbpaInit.cmake
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-src/cmake/UbpaPackage.cmake
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-src/cmake/UbpaQt.cmake
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-src/config/Config.cmake.in

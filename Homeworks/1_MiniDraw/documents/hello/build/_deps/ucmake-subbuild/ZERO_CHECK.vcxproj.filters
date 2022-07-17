@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\d703855f96f1b7099d08fa2519cdd44f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3535C05F-4B84-327C-B373-1748B2DEC2A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

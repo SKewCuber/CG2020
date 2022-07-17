@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-src\src\test\00_Basic\main.cpp">
+      <Filter>00_Basic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-src\src\test\00_Basic\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-src\cmake\UbpaBasic.cmake">
+      <Filter>cmake</Filter>
+    </None>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-src\cmake\UbpaBuild.cmake">
+      <Filter>cmake</Filter>
+    </None>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-src\cmake\UbpaDownload.cmake">
+      <Filter>cmake</Filter>
+    </None>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-src\cmake\UbpaGit.cmake">
+      <Filter>cmake</Filter>
+    </None>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-src\cmake\UbpaInit.cmake">
+      <Filter>cmake</Filter>
+    </None>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-src\cmake\UbpaPackage.cmake">
+      <Filter>cmake</Filter>
+    </None>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-src\cmake\UbpaQt.cmake">
+      <Filter>cmake</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00_Basic">
+      <UniqueIdentifier>{E81DDB39-FEE1-3980-B151-FE4E079EF5DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmake">
+      <UniqueIdentifier>{CBD305E6-5467-3B17-BE94-AADD8BB70BEE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

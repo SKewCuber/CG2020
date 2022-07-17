@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\src\example\example.cpp">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\src\example\main.cpp">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\EWIEGA46WW\qrc_example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\src\example\example.h">
+      <Filter>example</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\include_Debug\ui_example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\include_Release\ui_example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\include_MinSizeRel\ui_example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\include_RelWithDebInfo\ui_example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\CMakeFiles\081fb1c397acff740855978bfb40e40c\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\CMakeFiles\75da3c33cc835ad46b7c331c134999dc\qrc_example.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\src\example\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\src\example\example.qrc">
+      <Filter>example</Filter>
+    </None>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\src\example\example.ui">
+      <Filter>example</Filter>
+    </None>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\autouic_Debug.stamp" />
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\autouic_Release.stamp" />
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\example\build\src\example\QtExample_example_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{56E8B6CA-1FFB-3B47-819F-715C168F4486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{54A2F36E-EA1F-3352-9774-59CD57AEB666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E25EC509-54C9-315D-8FE5-722382F529D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="example">
+      <UniqueIdentifier>{972AB6F3-570F-362B-8A88-21C5D872810B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

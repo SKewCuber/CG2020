@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\6a80918664f4bd1f3ca63cdf4bdd23d5\ucmake-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\6a80918664f4bd1f3ca63cdf4bdd23d5\ucmake-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\6a80918664f4bd1f3ca63cdf4bdd23d5\ucmake-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\6a80918664f4bd1f3ca63cdf4bdd23d5\ucmake-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\6a80918664f4bd1f3ca63cdf4bdd23d5\ucmake-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\6a80918664f4bd1f3ca63cdf4bdd23d5\ucmake-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\6a80918664f4bd1f3ca63cdf4bdd23d5\ucmake-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\6a80918664f4bd1f3ca63cdf4bdd23d5\ucmake-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\000a2d0ab8014123b5df5508b681209e\ucmake-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\d703855f96f1b7099d08fa2519cdd44f\ucmake-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-subbuild\CMakeFiles\ucmake-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3535C05F-4B84-327C-B373-1748B2DEC2A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

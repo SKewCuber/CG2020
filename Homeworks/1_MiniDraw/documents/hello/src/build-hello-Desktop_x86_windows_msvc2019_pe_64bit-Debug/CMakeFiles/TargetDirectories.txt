@@ -1,0 +1,5 @@
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/build-hello-Desktop_x86_windows_msvc2019_pe_64bit-Debug/CMakeFiles/hello.dir
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/build-hello-Desktop_x86_windows_msvc2019_pe_64bit-Debug/CMakeFiles/edit_cache.dir
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/build-hello-Desktop_x86_windows_msvc2019_pe_64bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/build-hello-Desktop_x86_windows_msvc2019_pe_64bit-Debug/CMakeFiles/hello_autogen_timestamp_deps.dir
+D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/src/build-hello-Desktop_x86_windows_msvc2019_pe_64bit-Debug/CMakeFiles/hello_autogen.dir

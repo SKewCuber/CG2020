@@ -1,0 +1,10 @@
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\D703855F96F1B7099D08FA2519CDD44F\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild -BD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

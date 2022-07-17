@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FCF2422B-65A5-3BA6-939E-FCA876782C6C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\56a2c559e86e4383eda3dcea732d738a\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example -BD:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example/build/eigen_example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.23\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;D:\CMake\share\cmake-3.23\Modules\FindGit.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeSystem.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaBasic.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaBuild.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaDownload.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaGit.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaInit.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaPackage.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaQt.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaTool.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\config\Config.cmake.in;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\src\test\00_Basic\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\cmake\InitUCMake.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\src\_deps\eigen\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\src\test\00_LinearEquation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-build\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-build\src\test\00_Basic\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\src\_deps\eigen\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\src\test\00_LinearEquation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example -BD:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example/build/eigen_example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.23\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;D:\CMake\share\cmake-3.23\Modules\FindGit.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeSystem.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaBasic.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaBuild.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaDownload.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaGit.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaInit.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaPackage.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaQt.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaTool.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\config\Config.cmake.in;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\src\test\00_Basic\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\cmake\InitUCMake.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\src\_deps\eigen\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\src\test\00_LinearEquation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-build\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-build\src\test\00_Basic\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\src\_deps\eigen\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\src\test\00_LinearEquation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example -BD:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example/build/eigen_example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.23\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;D:\CMake\share\cmake-3.23\Modules\FindGit.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeSystem.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaBasic.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaBuild.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaDownload.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaGit.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaInit.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaPackage.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaQt.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaTool.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\config\Config.cmake.in;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\src\test\00_Basic\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\cmake\InitUCMake.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\src\_deps\eigen\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\src\test\00_LinearEquation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-build\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-build\src\test\00_Basic\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\src\_deps\eigen\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\src\test\00_LinearEquation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example -BD:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/STUDY/CG2020/Homeworks/2_ImageWarping/documents/eigen_example/build/eigen_example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.23\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent.cmake;D:\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;D:\CMake\share\cmake-3.23\Modules\FindGit.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\3.23.2\CMakeSystem.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaBasic.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaBuild.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaDownload.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaGit.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaInit.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaPackage.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaQt.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\cmake\UbpaTool.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\config\Config.cmake.in;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-src\src\test\00_Basic\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\cmake\InitUCMake.cmake;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\src\_deps\eigen\CMakeLists.txt;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\src\test\00_LinearEquation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-build\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\_deps\ucmake-build\src\test\00_Basic\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\src\_deps\eigen\CMakeFiles\generate.stamp;D:\STUDY\CG2020\Homeworks\2_ImageWarping\documents\eigen_example\build\src\test\00_LinearEquation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

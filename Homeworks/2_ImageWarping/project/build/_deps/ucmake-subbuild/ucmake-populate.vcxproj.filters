@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeFiles\92a0222110a89de6bb64e0845ff4eb35\ucmake-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeFiles\92a0222110a89de6bb64e0845ff4eb35\ucmake-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeFiles\92a0222110a89de6bb64e0845ff4eb35\ucmake-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeFiles\92a0222110a89de6bb64e0845ff4eb35\ucmake-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeFiles\92a0222110a89de6bb64e0845ff4eb35\ucmake-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeFiles\92a0222110a89de6bb64e0845ff4eb35\ucmake-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeFiles\92a0222110a89de6bb64e0845ff4eb35\ucmake-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeFiles\92a0222110a89de6bb64e0845ff4eb35\ucmake-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeFiles\63432b48307c2524a1ab54eb30b10b42\ucmake-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeFiles\f659422918eab2347a272c8f9754615b\ucmake-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\_deps\ucmake-subbuild\CMakeFiles\ucmake-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ABAD2627-D5A8-342B-9FF1-175155E21B8B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

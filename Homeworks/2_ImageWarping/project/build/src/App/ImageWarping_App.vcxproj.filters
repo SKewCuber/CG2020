@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\ImageWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\Line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\EWIEGA46WW\qrc_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\ImageWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\Line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\CMakeFiles\99a5f6ab26b9668d2f243f9537cfbcda\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\CMakeFiles\e49e65d5d56fcb178cf6404f103c9734\qrc_mainwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\mainwindow.qrc" />
+    <None Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\src\App\mainwindow.ui" />
+    <None Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\autouic_Debug.stamp" />
+    <None Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\autouic_Release.stamp" />
+    <None Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\STUDY\CG2020\Homeworks\2_ImageWarping\project\build\src\App\ImageWarping_App_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C744C040-934A-3457-A428-293EE8D486AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1A19E003-A75C-37A4-95A8-FCBBC7A4CEA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AF0F7AF7-03EB-3E6F-8EA7-0C8813C38B0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

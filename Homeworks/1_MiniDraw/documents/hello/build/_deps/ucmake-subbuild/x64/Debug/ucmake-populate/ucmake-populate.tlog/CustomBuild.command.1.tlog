@@ -1,0 +1,150 @@
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\6A80918664F4BD1F3CA63CDF4BDD23D5\UCMAKE-POPULATE-MKDIR.RULE
+setlocal
+D:\CMake\bin\cmake.exe -P D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\6A80918664F4BD1F3CA63CDF4BDD23D5\UCMAKE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -P D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\6A80918664F4BD1F3CA63CDF4BDD23D5\UCMAKE-POPULATE-UPDATE.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -P D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\6A80918664F4BD1F3CA63CDF4BDD23D5\UCMAKE-POPULATE-PATCH.RULE
+setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\6A80918664F4BD1F3CA63CDF4BDD23D5\UCMAKE-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\6A80918664F4BD1F3CA63CDF4BDD23D5\UCMAKE-POPULATE-BUILD.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\6A80918664F4BD1F3CA63CDF4BDD23D5\UCMAKE-POPULATE-INSTALL.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\6A80918664F4BD1F3CA63CDF4BDD23D5\UCMAKE-POPULATE-TEST.RULE
+setlocal
+cd D:\STUDY\CG2020\Homeworks\1_MiniDraw\documents\hello\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\000A2D0AB8014123B5DF5508B681209E\UCMAKE-POPULATE-COMPLETE.RULE
+setlocal
+D:\CMake\bin\cmake.exe -E make_directory D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/Debug/ucmake-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\D703855F96F1B7099D08FA2519CDD44F\UCMAKE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDY\CG2020\HOMEWORKS\1_MINIDRAW\DOCUMENTS\HELLO\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild -BD:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild --check-stamp-file D:/STUDY/CG2020/Homeworks/1_MiniDraw/documents/hello/build/_deps/ucmake-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

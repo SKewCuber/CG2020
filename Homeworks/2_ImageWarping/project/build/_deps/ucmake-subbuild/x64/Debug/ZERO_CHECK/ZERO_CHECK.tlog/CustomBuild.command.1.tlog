@@ -1,0 +1,10 @@
+^D:\STUDY\CG2020\HOMEWORKS\2_IMAGEWARPING\PROJECT\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\F659422918EAB2347A272C8F9754615B\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild -BD:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/ucmake-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+D:/CMake/share/cmake-3.23/Modules/CMakeGenericSystem.cmake
+D:/CMake/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake
+D:/CMake/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake
+D:/CMake/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake
+D:/CMake/share/cmake-3.23/Modules/ExternalProject.cmake
+D:/CMake/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in
+D:/CMake/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in
+D:/CMake/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in
+D:/CMake/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in
+D:/CMake/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in
+D:/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake
+D:/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
+D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeFiles/3.23.2/CMakeSystem.cmake
+D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/CMakeLists.txt
+D:/STUDY/CG2020/Homeworks/2_ImageWarping/project/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-mkdirs.cmake
