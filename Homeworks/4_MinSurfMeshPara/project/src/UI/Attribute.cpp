@@ -5,6 +5,8 @@
 #include <Engine/MeshEdit/Glue.h>
 #include <Engine/MeshEdit/MinSurf.h>
 #include <Engine/MeshEdit/Paramaterize.h>
+#include <Engine/MeshEdit/ASAP.h>
+#include <Engine/MeshEdit/ARAP.h>
 #include <Engine/MeshEdit/IsotropicRemeshing.h>
 #include <Engine/MeshEdit/ShortestPath.h>
 #include <Engine/MeshEdit/MST.h>
@@ -194,6 +196,34 @@ void Attribute::ComponentVisitor::ImplVisit(Ptr<CmptSimulate> simulate) {
 	grid->AddButton("set x min fix", [simulate]() {
 		simulate->SetLeftFix();
 		});
+	grid->AddButton("use Euler method", [simulate]()
+		{
+			simulate->SetMethodEuler();
+		});
+	grid->AddButton("use Accel method", [simulate]()
+		{
+			simulate->SetMethodAccel();
+		});
+	/*grid->AddEditVal("Gravity x", simulate->GetGravity()[0], 0.01);
+	grid->AddEditVal("Gravity y", simulate->GetGravity()[1], 0.01);
+	grid->AddEditVal("Gravity z", simulate->GetGravity()[2], 0.01);*/
+
+	//grid->AddTextBox("Fixed Points", [simulate](std::string str)
+	//	{
+	//		std::vector<unsigned> fixed;
+	//		stringstream ss(str);
+	//		int id;
+	//		while (ss >> id)
+	//		{
+	//			fixed.push_back(id);
+	//		}
+	//		simulate->SetFix(fixed);
+	//	});
+	/*grid->AddEditVal("Time step", 0.03, 0.01, [simulate](double v)
+		{
+			simulate->SetTimeStep(float(v));
+		});*/
+
 }
 
 // -------------- Camera --------------
@@ -352,21 +382,77 @@ void Attribute::ComponentVisitor::ImplVisit(Ptr<TriMesh> mesh) {
 	grid->AddText("- Triangle", mesh->GetIndice().size() / 3);
 	grid->AddText("- Vertex", mesh->GetPositions().size());
 
+
+	grid->AddButton("Show ARAP", [mesh, pOGLW = attr->pOGLW]() {
+		auto asap = ARAP::New(mesh);
+		asap->Run(true,10);
+		pOGLW->DirtyVAO(mesh);
+	});
+
+	grid->AddButton("ARAP", [mesh, pOGLW = attr->pOGLW]() {
+		auto asap = ARAP::New(mesh);
+		asap->Run(false, 10);
+		pOGLW->DirtyVAO(mesh);
+	});
+
+	grid->AddButton("Show ASAP", [mesh, pOGLW = attr->pOGLW]() {
+		auto asap = ASAP::New(mesh);
+		asap->Run(true);
+		pOGLW->DirtyVAO(mesh);
+	});
+
+	grid->AddButton("ASAP", [mesh, pOGLW = attr->pOGLW]() {
+		auto asap = ASAP::New(mesh);
+		asap->Run(false);
+		pOGLW->DirtyVAO(mesh);
+	});
+
 	grid->AddButton("Glue", [mesh, pOGLW = attr->pOGLW]() {
 		auto glue = Glue::New(mesh);
 		glue->Run();
 		pOGLW->DirtyVAO(mesh);
 	});
 
-	grid->AddButton("Minimize Surface", [mesh, pOGLW = attr->pOGLW]() {
+	grid->AddButton("Minimize Surface(uniform)", [mesh, pOGLW = attr->pOGLW]() {
 		auto minSurf = MinSurf::New(mesh);
-		minSurf->Run();
+		minSurf->Run(false,minSurf);
 		pOGLW->DirtyVAO(mesh);
 	});
 
-	grid->AddButton("Paramaterize", [mesh, pOGLW = attr->pOGLW]() {
+	grid->AddButton("Minimize Surface(cot)", [mesh, pOGLW = attr->pOGLW]() {
+		auto minSurf = MinSurf::New(mesh);
+		minSurf->Run(true,minSurf);
+		pOGLW->DirtyVAO(mesh);
+	});
+
+	grid->AddButton("Paramaterize_uniform", [mesh, pOGLW = attr->pOGLW]() {
 		auto paramaterize = Paramaterize::New(mesh);
-		if (paramaterize->Run())
+		if (paramaterize->Run(false,false))
+			printf("Paramaterize done\n");
+		pOGLW->DirtyVAO(mesh);
+	});
+
+
+	//展示参数化的结果
+	grid->AddButton("Show_Paramaterization_uniform", [mesh, pOGLW = attr->pOGLW]() {
+		auto paramaterize = Paramaterize::New(mesh);
+		if (paramaterize->Run(true,false))
+			printf("Paramaterize done\n");
+		pOGLW->DirtyVAO(mesh);
+	});
+
+	grid->AddButton("Paramaterize_cot", [mesh, pOGLW = attr->pOGLW]() {
+		auto paramaterize = Paramaterize::New(mesh);
+		if (paramaterize->Run(false,true))
+			printf("Paramaterize done\n");
+		pOGLW->DirtyVAO(mesh);
+	});
+
+
+	//展示参数化的结果
+	grid->AddButton("Show_Paramaterization_cot", [mesh, pOGLW = attr->pOGLW]() {
+		auto paramaterize = Paramaterize::New(mesh);
+		if (paramaterize->Run(true,true))
 			printf("Paramaterize done\n");
 		pOGLW->DirtyVAO(mesh);
 	});

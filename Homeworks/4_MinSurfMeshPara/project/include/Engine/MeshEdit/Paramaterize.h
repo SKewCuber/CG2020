@@ -1,6 +1,9 @@
 #pragma once
 
 #include <Basic/HeapObj.h>
+#include <UHEMesh/HEMesh.h>
+#include <UGM/UGM>
+#include <Eigen/Sparse>
 
 namespace Ubpa {
 	class TriMesh;
@@ -18,6 +21,11 @@ namespace Ubpa {
 		void Clear();
 		bool Init(Ptr<TriMesh> triMesh);
 
-		bool Run();
+		bool Run(bool show_para,bool cot);
+		
+	private:
+		Ptr<MinSurf> min;
 	};
 }
+
+

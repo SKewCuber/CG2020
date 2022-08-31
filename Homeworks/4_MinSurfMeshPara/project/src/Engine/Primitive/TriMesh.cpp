@@ -41,6 +41,10 @@ TriMesh::TriMesh(unsigned triNum, unsigned vertexNum,
 		if(tangents)
 			this->tangents.push_back({ tangents[3 * i],tangents[3 * i + 1],tangents[3 * i + 2] });
 	}
+	/*for (unsigned i = 0; i < vertexNum; i++)
+	{
+		cout << positions[3 * i] << "," << positions[3 * i + 1] << "," << positions[3 * i + 2] << endl;
+	}*/
 
 	// traingel 的 mesh 在 init 的时候设置
 	// 因为现在还没有生成 share_ptr
@@ -113,7 +117,7 @@ void TriMesh::Init(bool creator, const std::vector<unsigned> & indice,
 		if (texcoords.empty())
 			this->tangents.resize(positions.size());
 		else
-			GenTangents();
+			GenTangents(true);
 	}
 	else
 		this->tangents = tangents;
@@ -193,14 +197,14 @@ void TriMesh::GenNormals() {
 	Parallel::Instance().Run(calN, positions.size());
 }
 
-void TriMesh::GenTangents() {
+void TriMesh::GenTangents(bool write) {
 	const size_t vertexNum = positions.size();
 	const size_t triangleCount = indice.size() / 3;
 
 	vector<normalf> tanS(vertexNum);
 	vector<normalf> tanT(vertexNum);
 	vector<mutex> vertexMutexes(vertexNum);
-	auto calST = [&](Ptr<Triangle> triangle) {
+	auto calST = [&](Ptr<Triangle> triangle) {   //[]:定义匿名函数
 		auto i1 = triangle->idx[0];
 		auto i2 = triangle->idx[1];
 		auto i3 = triangle->idx[2];
@@ -255,6 +259,14 @@ void TriMesh::GenTangents() {
 		tangents[i] *= (n.cross(t).dot(tanT[i]) < 0.0F) ? -1.0F : 1.0F;
 	};
 	Parallel::Instance().Run(calTan, vertexNum);
+	if (write)
+	{
+		for (size_t i = 0; i < tangents.size(); i++)
+		{
+			cout << tangents[i] << endl;
+		}
+	}
+	
 }
 
 const Ptr<TriMesh> TriMesh::GenCube() {

@@ -1,6 +1,7 @@
 #include "ChildWindow.h"
 #include "ImageWidget.h"
-
+#include <Eigen/Dense>
+#include<iostream>
 
 ChildWindow::ChildWindow(void)
 {
@@ -11,6 +12,8 @@ ChildWindow::ChildWindow(void)
 
 ChildWindow::~ChildWindow(void)
 {
+	delete imagewidget_;
+	imagewidget_ = NULL;
 }
 
 bool ChildWindow::LoadFile(QString filename)

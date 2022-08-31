@@ -181,6 +181,8 @@ void Grid::AddText(const string & left, const string & right) {
 	AddRow(left, label1);
 }
 
+
+
 void Grid::AddEditColor(const string & text, Ubpa::rgbf & color) {
 	auto button = new QPushButton;
 	stringstream stylesheet;

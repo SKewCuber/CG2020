@@ -37,9 +37,12 @@ private slots:
 	void Restore();								// Restore image to origin
 
 	// Poisson Image Editing
-	void ChooseRect();							// Choose rectangle region
+	//void ChooseRect();							// Choose rectangle region
+	void ChoosePolygon();						// Choose polygon region
+	void ChooseFreehand();						// Choose freehand region
 	void Paste();								// Paste rect region to object image
-
+	void Paste_mix();							// Paste by mixed seamless cloning
+	void Show_inpolygon_();							// Show matrix inpolygon_^T
 private:
 	void CreateActions();
 	void CreateMenus();
@@ -68,13 +71,16 @@ private:
 	QAction						*action_restore_;
 
 	QAction						*action_choose_polygon_;
+	QAction                     *action_choose_freehand_;
 	QAction						*action_copy_;
 	QAction						*action_paste_;
+	QAction                     *action_paste_mix_;
+	QAction                     *action_show_inpolygon_;
 
 	QMdiArea					*mdi_area_;
 	QSignalMapper				*window_mapper_;
 
-	ChildWindow					*child_source_;
+	ChildWindow					*child_source_=NULL;
 };
 
 #endif // MAINWINDOW_H

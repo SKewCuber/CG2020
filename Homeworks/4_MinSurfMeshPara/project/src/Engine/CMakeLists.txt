@@ -7,7 +7,8 @@ Ubpa_GetTargetName(Qt "${PROJECT_SOURCE_DIR}/src/Qt")
 
 set(libs ${OpenGL} ${Qt} Qt5::Widgets)
 
-if(TARGET assimp::assimp)
+if(TARGET 
+::assimp)
 	list(APPEND libs assimp::assimp)
 	add_definitions(-DUSE_ASSIMP)
 endif()

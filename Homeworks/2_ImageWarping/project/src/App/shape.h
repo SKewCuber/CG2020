@@ -6,10 +6,10 @@ class Shape
 {
 public:
 	Shape();
-	virtual ~Shape();
 	// 父类的析构函数必须是 virtual 的
 	// 否则当用父类指针指向子类的实例并删除该实例时，将只会调用父类的析构函数
 	// 而不调用子类的析构函数。会造成内存泄漏
+	virtual ~Shape();
 	virtual void Draw(QPainter& paint) = 0;
 	//virtual void AddPoint(QPoint*);  
 	void set_start(QPoint s);

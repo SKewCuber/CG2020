@@ -79,7 +79,7 @@ void MainWindow::CreateActions()
 	connect(action_restore_, &QAction::triggered, imagewidget_, &ImageWidget::Restore);
 
 	action_warp_ = new QAction(tr("Warp"), this);
-	action_warp_->setStatusTip(tr("Image warping"));
+	action_warp_->setStatusTip(tr("Image warping. left:The original image, middle: warped by RBF, right:warped by RBF with gape filling"));
 	connect(action_warp_, &QAction::triggered, imagewidget_, &ImageWidget::Warp);
 }
 

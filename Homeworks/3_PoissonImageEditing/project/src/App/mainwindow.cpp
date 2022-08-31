@@ -70,11 +70,28 @@ void MainWindow::CreateActions()
 	connect(action_restore_, SIGNAL(triggered()), this, SLOT(Restore()));
 
 	// Poisson image editting
-	action_choose_polygon_ = new QAction(tr("RectChoose"), this);
-	connect(action_choose_polygon_, SIGNAL(triggered()), this, SLOT(ChooseRect()));
+	/*action_choose_polygon_ = new QAction(tr("RectChoose"), this);
+	connect(action_choose_polygon_, SIGNAL(triggered()), this, SLOT(ChooseRect()));*/
+
+	action_choose_polygon_ = new QAction(tr("PolygonChoose"), this);
+	action_choose_polygon_->setStatusTip(tr("Choose polygon region"));
+	connect(action_choose_polygon_, SIGNAL(triggered()), this, SLOT(ChoosePolygon()));
+
+	action_choose_freehand_ = new QAction(tr("FreehandChoose"), this);
+	action_choose_freehand_->setStatusTip(tr("Choose freehand region"));
+	connect(action_choose_freehand_, SIGNAL(triggered()), this, SLOT(ChooseFreehand()));
 
 	action_paste_ = new QAction(tr("Paste"), this);
+	action_paste_->setStatusTip(tr("Paste"));
 	connect(action_paste_, SIGNAL(triggered()), this, SLOT(Paste()));
+
+	action_paste_mix_ = new QAction(tr("Paste(mixed)"), this);
+	action_paste_mix_->setStatusTip(tr("Paste by mixed method"));
+	connect(action_paste_mix_, SIGNAL(triggered()), this, SLOT(Paste_mix()));
+
+	action_show_inpolygon_ = new QAction(tr("ShowInpolygonMatrix"), this);
+	action_show_inpolygon_->setStatusTip(tr("1 for inner points,2 for boundary points,0 for outer points"));
+	connect(action_show_inpolygon_, SIGNAL(triggered()), this, SLOT(Show_inpolygon_()));
 }
 
 void MainWindow::CreateMenus()
@@ -94,6 +111,12 @@ void MainWindow::CreateMenus()
 	menu_edit_->addAction(action_mirror_);
 	menu_edit_->addAction(action_gray_);
 	menu_edit_->addAction(action_restore_);
+	menu_edit_->addSeparator();
+	menu_edit_->addAction(action_paste_);
+	menu_edit_->addAction(action_paste_mix_);
+	menu_edit_->addSeparator();
+	menu_edit_->addAction(action_choose_polygon_);
+	menu_edit_->addAction(action_choose_freehand_);
 }
 
 void MainWindow::CreateToolBars()
@@ -113,7 +136,10 @@ void MainWindow::CreateToolBars()
 	// Poisson Image Editing
 	toolbar_file_->addSeparator();
 	toolbar_file_->addAction(action_choose_polygon_);
+	toolbar_file_->addAction(action_choose_freehand_);
 	toolbar_file_->addAction(action_paste_);
+	toolbar_file_->addAction(action_paste_mix_);
+	toolbar_file_->addAction(action_show_inpolygon_);
 }
 
 void MainWindow::CreateStatusBar()
@@ -159,7 +185,8 @@ void MainWindow::Save()
 	SaveAs();
 }
 
-ChildWindow* MainWindow::GetChildWindow() {
+ChildWindow* MainWindow::GetChildWindow()
+{
 	QMdiSubWindow* activeSubWindow = mdi_area_->activeSubWindow();
 	if (!activeSubWindow)
 		return nullptr;
@@ -225,13 +252,33 @@ void MainWindow::Restore()
 	window->imagewidget_->Restore();
 }
 
-void MainWindow::ChooseRect()
+//void MainWindow::ChooseRect()
+//{
+//	// Set source child window
+//	ChildWindow* window = GetChildWindow();
+//	if (!window)
+//		return;
+//	window->imagewidget_->set_draw_status_to_choose();
+//	child_source_ = window;
+//}
+
+void MainWindow::ChoosePolygon()
 {
 	// Set source child window
 	ChildWindow* window = GetChildWindow();
 	if (!window)
 		return;
-	window->imagewidget_->set_draw_status_to_choose();
+	window->imagewidget_->set_draw_status_to_polygon();
+	child_source_ = window;
+}
+
+void MainWindow::ChooseFreehand()
+{
+	// Set source child window
+	ChildWindow* window = GetChildWindow();
+	if (!window)
+		return;
+	window->imagewidget_->set_draw_status_to_freehand();
 	child_source_ = window;
 }
 
@@ -241,17 +288,36 @@ void MainWindow::Paste()
 	ChildWindow* window = GetChildWindow();
 	if (!window)
 		return;
-	window->imagewidget_->set_draw_status_to_paste();
 	window->imagewidget_->set_source_window(child_source_);
+	window->imagewidget_->set_draw_status_to_paste();
 }
 
-QMdiSubWindow *MainWindow::FindChild(const QString &filename)
+void MainWindow::Paste_mix()
+{
+	// Paste image rect region to object image
+	ChildWindow* window = GetChildWindow();
+	if (!window)
+		return;
+	window->imagewidget_->set_source_window(child_source_);
+	window->imagewidget_->set_draw_status_to_paste_mixed();
+}
+
+void MainWindow::Show_inpolygon_()
+{
+	ChildWindow* window = GetChildWindow();
+	if (!window)
+		return;
+	window->imagewidget_->set_source_window(child_source_);
+	window->imagewidget_->Show_inpolygon_();
+}
+
+QMdiSubWindow* MainWindow::FindChild(const QString& filename)
 {
 	QString canonical_filepath = QFileInfo(filename).canonicalFilePath();
 
-	foreach (QMdiSubWindow *window, mdi_area_->subWindowList())
+	foreach(QMdiSubWindow * window, mdi_area_->subWindowList())
 	{
-		ChildWindow *child = qobject_cast<ChildWindow *>(window->widget());
+		ChildWindow* child = qobject_cast<ChildWindow*>(window->widget());
 		if (child->current_file() == canonical_filepath)
 		{
 			return window;

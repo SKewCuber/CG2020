@@ -24,7 +24,7 @@ public slots:
 	
 
 public:
-	ImageWidget			*imagewidget_;
+	ImageWidget			*imagewidget_=NULL;
 	QString				current_file_;
 };
 

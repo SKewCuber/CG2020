@@ -1,6 +1,13 @@
-#pragma once
+﻿#pragma once
 #include <QWidget>
+#include <Eigen\Sparse>
+#include <Eigen\Dense>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/core/core.hpp>
 
+#include "shape.h"
+#include "Poisson.h"
 class ChildWindow;
 QT_BEGIN_NAMESPACE
 class QImage;
@@ -9,8 +16,10 @@ QT_END_NAMESPACE
 
 enum DrawStatus
 {
-	kChoose, 
-	kPaste, 
+	kFreehand,
+	kPolygon,
+	kPaste,
+	kMixed,
 	kNone
 };
 
@@ -25,8 +34,10 @@ public:
 
 	int ImageWidth();											// Width of image
 	int ImageHeight();											// Height of image
-	void set_draw_status_to_choose();
+	void set_draw_status_to_polygon();
+	void set_draw_status_to_freehand();
 	void set_draw_status_to_paste();
+	void set_draw_status_to_paste_mixed();
 	QImage* image();
 	void set_source_window(ChildWindow* childwindow);
 
@@ -51,17 +62,25 @@ public slots:
 public:
 	QPoint						point_start_;					// Left top point of rectangle region
 	QPoint						point_end_;						// Right bottom point of rectangle region
+	Shape* shape_=NULL;						// region shape
+	void                        Show_inpolygon_();
 
 private:
-	QImage						*image_;						// image 
-	QImage						*image_backup_;
+	QImage						*image_=NULL;						// image 
+	QImage						*image_backup_=NULL;
 
 	// Pointer of child window
-	ChildWindow					*source_window_;				// Source child window
+	ChildWindow					*source_window_=NULL;				// Source child window
 
 	// Signs
 	DrawStatus					draw_status_;					// Enum type of draw status
 	bool						is_choosing_;
 	bool						is_pasting_;
+	bool                        is_mixed_;
+	bool                        stop_polygon_ = true;
+
+
+
+	Poisson poisson;
 };
 

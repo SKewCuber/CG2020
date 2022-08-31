@@ -118,15 +118,19 @@ namespace Ubpa {
 		static const Ptr<TriMesh> GenDisk();
 
 	private:
-		void GenTangents();
+		void GenTangents(bool write);
+		void GenTangents()
+		{
+			GenTangents(false);
+		}
 		void GenNormals();
 
 	private:
 		ENUM_TYPE type;
 
-		std::vector<unsigned> indice;
-		std::vector<pointf3> positions;
-		std::vector<normalf> normals;
+		std::vector<unsigned> indice;   //点的序号，三个indice构成一个面
+		std::vector<pointf3> positions;  //点坐标
+		std::vector<normalf> normals;    //法向量
 		std::vector<pointf2> texcoords;
 		std::vector<normalf> tangents;
 
